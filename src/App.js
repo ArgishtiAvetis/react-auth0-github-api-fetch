@@ -8,13 +8,13 @@ import Github from './Github';
 
 
 const options = {
-  theme: {
-    logo: 'https://challer.co/img/logo.jpg'
-  },
-  languageDictionary: {
-    emailInputPlaceholder: "something@youremail.com",
-    title: "Log in to continue"
-  },
+//   theme: {
+//     logo: 'YOUR LOGO LINK HERE'
+//   },
+//   languageDictionary: {
+//     emailInputPlaceholder: "something@youremail.com",
+//     title: "Log in to continue"
+//   },
 };
 
 class App extends Component {
@@ -31,8 +31,8 @@ class App extends Component {
   }
 
   static defaultProps = {
-    clientID: 'oDlPY0acdZoCeZLHI4TcUnTGDkYrRyS2',
-    domain: 'argiii.auth0.com'
+    clientID: 'YOUR CLIENT ID HERE',
+    domain: 'YOUR DOMAIN HERE'
   }
 
 
